@@ -4,5 +4,7 @@
         <livewire:projects.show :$project/>
 
         <livewire:projects.proposals :$project/>
+
+        <livewire:proposals.create/>
     </div>
 </x-layouts.app>
