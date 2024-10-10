@@ -1,14 +1,15 @@
-<div x-data="{ showModal: @entangle('modal') }" x-show="showModal">
-    <dialog x-ref="modal"
+<div x-data="{ showModal: @entangle('modal') }" x-show="showModal" style="display: none;">
+    <dialog x-ref="modal" 
         class="
             fixed inset-0 rounded-lg w-full max-w-md
             bg-[#181826] shadow-lg text-white
             border-[#1E1E2C] border p-8
             flex flex-col gap-6 z-50
-        ">
+        "
+        @click.away="showModal = false" x-show="showModal">
         <div>
             <button class="bg-[#1E1E2C] hover:bg-[#313145] transition duration-300 ease-in-out p-[8px] rounded-md"
-            wire:click="$set('modal', false)">
+            @click="showModal = false">
                 <x-ui.icons.x class="w-[32px] h-[32px] text-white" />
             </button>
         </div>
