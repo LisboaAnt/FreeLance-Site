@@ -1,35 +1,28 @@
-<h1 align="center">
-  🚧 Em Construção 🚧
-</h1>
+<p align="center"><img src=".github/logo.png" width="200" alt="FreelanceHours Logo"></a></p>
 
 <p align="center">
-  <strong>Site de Hub de FreeLancers</strong>
+  <img alt="PHP version" src="https://img.shields.io/static/v1?label=php&message=8.2&color=18181B&labelColor=5354FD">
+    <img alt="Laravel version" src="https://img.shields.io/static/v1?label=laravel&message=11.9&color=18181B&labelColor=5354FD">
 </p>
+
+## Projeto FreelanceHours
+
+FreelanceHours é uma aplicação desenvolvida em PHP, Laravel e Livewire, onde freelancers podem enviar propostas de horas que podem contribuir em determinado projeto.
+
+<br>
 
 <p align="center">
-  Um site no qual você poderá publicar ou pegar projetos FreeLancers
+  <img alt="Preview do projeto desenvolvido." src=".github/preview.png" width="80%">
 </p>
 
-## Visão Geral
+## Tecnologias utilizadas
 
-Este projeto está sendo desenvolvido utilizando **PHP** com o framework **Laravel**, implementando o padrão **MVC** (Model-View-Controller) para uma arquitetura organizada e escalável. O objetivo principal é criar um **hub de freelancing** que permita a publicação e contratação de projetos. Os usuários poderão se registrar como freelancers para oferecer serviços ou como clientes para contratar trabalhos.
+- [**PHP**](https://www.php.net/): Linguagem de programação usada;
+- [**Laravel**](https://laravel.com/): Framework PHP utilizado para a estrutura e organização do projeto;
+- [**Livewire**](https://laravel-livewire.com/): Utilizado para criar interfaces dinâmicas e reativas sem sair do Laravel;
+- [**Tailwind**](https://tailwindcss.com/): Framework CSS que facilita o desenvolvimento de interfaces modernas e responsivas.
 
-Principais funcionalidades previstas:
-- Cadastro de freelancers e clientes.
-- Publicação de projetos.
-- Propostas e negociações dentro da plataforma.
-- Sistema de avaliações e feedback para freelancers e clientes.
-- Dashboard de gestão de projetos.
 
-## Tecnologias Utilizadas
+## Licença
 
-- **PHP 8.x**: Linguagem principal de backend.
-- **Laravel 9.x**: Framework para estruturação de rotas, controle de usuários e implementação do padrão MVC.
-- **MySQL**: Banco de dados relacional para armazenamento de informações de usuários e projetos.
-- **Blade**: Template engine do Laravel para construir a interface visual.
-- **Tailwind CSS**: Para estilização de componentes com uma abordagem utilitária.
-- **Docker**: Para o ambiente de desenvolvimento e deploy consistentes.
-
-## 💛 Contact
-
-antoniol.carvalho49@gmail.com
+Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE para mais detalhes.

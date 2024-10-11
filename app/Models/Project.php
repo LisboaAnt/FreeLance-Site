@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use App\Livewire\Projects\Proposals;
 use App\ProjectStatus;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -17,15 +16,17 @@ class Project extends Model
         return [
             'tech_stack' => 'array',
             'status' => ProjectStatus::class,
-            'ends_at' => 'datetime'
+            'ends_at' => 'datetime',
         ];
     }
 
-    public function author(){
+    public function author()
+    {
         return $this->belongsTo(User::class, 'created_by');
     }
 
-    public function proposals(){
+    public function proposals()
+    {
         return $this->hasMany(Proposal::class);
     }
 }
